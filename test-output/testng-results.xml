@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="5" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-07T00:15:13 IST" name="Default suite" finished-at="2025-11-07T00:16:28 IST" duration-ms="74448">
+    <groups>
+    </groups>
+    <test started-at="2025-11-07T00:15:13 IST" name="Default test" finished-at="2025-11-07T00:16:28 IST" duration-ms="74448">
+      <class name="org.Testcase.InsiderCareerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.Testcase.InsiderCareerTest@1caa0244]" started-at="2025-11-07T00:15:13 IST" name="setup" finished-at="2025-11-07T00:15:31 IST" duration-ms="17329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyHomePageIsOpened()[pri:1, instance:org.Testcase.InsiderCareerTest@1caa0244]" started-at="2025-11-07T00:15:31 IST" name="verifyHomePageIsOpened" description="Verify that Insider homepage opens successfully" finished-at="2025-11-07T00:15:31 IST" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageIsOpened -->
+        <test-method signature="verifyCareerPageIsOpened()[pri:2, instance:org.Testcase.InsiderCareerTest@1caa0244]" started-at="2025-11-07T00:15:31 IST" name="verifyCareerPageIsOpened" description="Verify navigation to Careers page is successful" finished-at="2025-11-07T00:15:45 IST" duration-ms="13486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCareerPageIsOpened -->
+        <test-method signature="verifyCareerPageSections()[pri:3, instance:org.Testcase.InsiderCareerTest@1caa0244]" started-at="2025-11-07T00:15:45 IST" name="verifyCareerPageSections" description="Verify various sections on Career page" finished-at="2025-11-07T00:15:53 IST" duration-ms="8534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCareerPageSections -->
+        <test-method signature="verifyQualityAssurancePageIsOpened()[pri:4, instance:org.Testcase.InsiderCareerTest@1caa0244]" started-at="2025-11-07T00:15:53 IST" name="verifyQualityAssurancePageIsOpened" description="Verify that Quality Assurance page is opens successfully" finished-at="2025-11-07T00:16:07 IST" duration-ms="13594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQualityAssurancePageIsOpened -->
+        <test-method signature="verifyResultsAfterApplyingLocationAndDepartmentFilter()[pri:5, instance:org.Testcase.InsiderCareerTest@1caa0244]" started-at="2025-11-07T00:16:07 IST" name="verifyResultsAfterApplyingLocationAndDepartmentFilter" description="Verify that all listed jobs match the selected filter criteria" finished-at="2025-11-07T00:16:17 IST" duration-ms="10094" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57d0f247723c905ed5505ccd1a45ff6a, executeScript {script=arguments[0].style.border='', args=[{element-6066-11e4-a52e-4f735466cecf=f.66D6ECA2E7F5749EA23FE9D2F7D6964B.d.968C294AA4DF51D123B0C47A4694C57E.e.403}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\LAXMIM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50450}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50450/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57d0f247723c905ed5505ccd1a45ff6a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=138.0.7204.184)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [57d0f247723c905ed5505ccd1a45ff6a, executeScript {script=arguments[0].style.border='', args=[{element-6066-11e4-a52e-4f735466cecf=f.66D6ECA2E7F5749EA23FE9D2F7D6964B.d.968C294AA4DF51D123B0C47A4694C57E.e.403}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.184, chrome: {chromedriverVersion: 138.0.7204.183 (e90faf484dd..., userDataDir: C:\Users\LAXMIM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50450}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50450/devtoo..., se:cdpVersion: 138.0.7204.184, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 57d0f247723c905ed5505ccd1a45ff6a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:476)
+at org.GenericUtils.ReuseableMethods.highlightElement(ReuseableMethods.java:60)
+at org.Pages.QualityAssurancePage.verifyDepartmentsOfJobAfterApplyingFilter(QualityAssurancePage.java:87)
+at org.Testcase.InsiderCareerTest.verifyResultsAfterApplyingLocationAndDepartmentFilter(InsiderCareerTest.java:87)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyResultsAfterApplyingLocationAndDepartmentFilter -->
+        <test-method signature="verifyViewRoleRedirection()[pri:6, instance:org.Testcase.InsiderCareerTest@1caa0244]" started-at="2025-11-07T00:16:17 IST" name="verifyViewRoleRedirection" description="Verify &#039;View Role&#039; redirects to Lever Application form" finished-at="2025-11-07T00:16:28 IST" duration-ms="10688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyViewRoleRedirection -->
+      </class> <!-- org.Testcase.InsiderCareerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
